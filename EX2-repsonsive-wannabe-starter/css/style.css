@@ -140,7 +140,7 @@ TABLET
 }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
     .container {
     width: 100%;
     margin: 0 auto;
@@ -153,20 +153,20 @@ TABLET
 MOBILE
 --*/
 
-@media screen and (max-width: 480px) {
-    .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 5px;
-   
+@media screen and (max-width: 480px) { 
+    
+      .row{
+        display: flex;
+        flex-wrap: wrap;
 }
 
-.step .col {
-    width: 100%;
+    .steps .col {
+        width: 100%;
+
 }
 
-.row{
-    display: flex;
-    flex-wrap: wrap;
+    .lessons .col {
+    width: 100%;
+}  
 }
-}
+
